@@ -1,0 +1,281 @@
+/**************************** Plogg Test ******************************/
+
+/* File modified by Mohamed CHIBANI
+  LinkedIn : https://www.linkedin.com/in/mohamed-chibani-879891156/; */
+/************** Start index page ***************/
+
+/* Placeholder input date */
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+
+/* Start Top bar */
+.colorlib-nav .top {
+  background:#fff
+}
+
+.colorlib-nav .top .top-btns{
+  float: right;
+}
+
+.colorlib-nav .top .help-btn{
+  background: #f9da00; 
+  font-weight: 700; 
+  color:#000; 
+  padding: 5px 20px 5px 20px;
+}
+
+
+.colorlib-nav .top .join-us-btn{
+  background: #f9da00; 
+  color:#000; 
+  padding: 5px 20px 5px 20px; 
+  font-weight: 700;
+}
+
+.colorlib-nav .top .lang-btn{
+  background: #0bdb7b; 
+  color:#4323d3; 
+  padding: 5px 20px 5px 20px; 
+  font-weight: 700;
+}
+/* End top Bar */
+
+/* Nav */
+.colorlib-nav ul li.active > a{
+  color: #F00 !important;
+}
+
+
+
+/* Start voyage section */
+.voyage-section {
+  background: #eee;
+}
+
+.voyage-section .voyage-form{
+  padding: 20px;
+}
+
+.voyage-section .voyage-form .style,
+.voyage-section .voyage-form .langue{
+  height: 50px;
+}
+
+
+.voyage-section .voyage-form .arrival-date,
+.voyage-section .voyage-form .depart-date{
+  width: 160px; font-family:Arial, FontAwesome;
+}
+
+
+.voyage-section .voyage-form .btn-submit-voyage-form{
+  padding: 13px 40px; 
+  margin-top:3px; 
+  background: #0bdb7b; 
+  color: #fff; 
+  font-size: 14px;
+  text-transform: uppercase; 
+  font-weight: 700;
+}
+
+.voyage-section .voyage-form .more-filter > b{
+  color:#1616c5;
+}
+/* End Voyage Section */
+
+
+/* Start Slider */
+#colorlib-hero .flexslider .slides > li {
+  background-image: url(../images/img_bg_5.jpg);
+}
+
+#colorlib-hero .flexslider .slides > li .slider-text-inner h1{
+   font-family: 'MS Sans Serif', Geneva, sans-serif; 
+   text-transform: uppercase; 
+   font-weight: 800 
+}
+
+#colorlib-hero .flexslider .slides > li .btn-search{
+   text-transform: uppercase; 
+   border-radius: 500px
+}
+/* End Slider */
+
+
+/* Start advantages section */
+#colorlib-advantages{
+   padding: 0em 0;
+}
+
+.diningbar-flex .diningbar-img{
+   background-image: url(../images/img_1.jpg);
+}
+
+.diningbar-flex .tab-content .tab-pane .advantage-1-section .fa-dollar-sign{
+   background: #9610ea; 
+   padding:12px 17px;
+   color: #fff; 
+   border-radius: 50%;
+}
+
+.diningbar-flex .tab-content .tab-pane .advantage-1-section .advantage-1{
+   font-size: 34px; 
+   font-weight: 700; 
+   color: #9610ea; 
+   text-transform: uppercase; 
+   line-height: 30px
+}
+
+.diningbar-flex .tab-content .tab-pane .advantage-2-section .fa-grin-squint{
+   background: #f25d56; 
+   padding:12px 12px;
+   color: #fff; 
+   border-radius: 50%;
+}
+
+.diningbar-flex .tab-content .tab-pane .advantage-2-section,
+.diningbar-flex .tab-content .tab-pane .advantage-4-section{
+   margin-top: 20px
+}
+
+.diningbar-flex .tab-content .tab-pane .advantage-2-section .advantage-2{
+     font-size: 34px; 
+     font-weight: 700; 
+     color: #f25d56; 
+     text-transform: uppercase; 
+     line-height: 30px
+}
+
+.diningbar-flex .tab-content .tab-pane .advantage-3-section .fa-building {
+    background: #36cf36; 
+    padding:12px 14px;
+    color: #fff; 
+    border-radius: 50%;
+}
+
+.diningbar-flex .tab-content .tab-pane .advantage-3-section .advantage-3{
+   font-size: 34px; 
+   font-weight: 700; 
+   color: #36cf36; 
+   text-transform: uppercase; 
+   line-height: 30px
+}
+
+
+.diningbar-flex .tab-content .tab-pane .advantage-4-section .fa-home{
+    background: #e4d417; 
+    padding:12px 10px;
+    color: #fff; 
+    border-radius: 50%;
+}
+
+.diningbar-flex .tab-content .tab-pane .advantage-4-section .advantage-4{
+   font-size: 34px; 
+   font-weight: 700; 
+   color: #e4d417; 
+   text-transform: uppercase; 
+   line-height: 30px
+}
+
+.diningbar-flex .diningbar-img-2{
+   background-image: url(../images/img_2.jpg);
+}
+/* End advantages section */
+
+
+/* Start subscribe section */
+
+#colorlib-subscribe{
+  background:#e4d417 !important;
+  padding: 0em 4em !important;
+} 
+
+#colorlib-subscribe .colorlib-heading .qbstp-header-subscribe > div{
+  margin-top: 85px
+}
+
+#colorlib-subscribe .colorlib-heading .qbstp-header-subscribe > div div span{
+  color:#026; 
+  font-size: 20px; 
+  text-transform: none
+}
+
+#colorlib-subscribe .colorlib-heading .qbstp-header-subscribe > div div span b{
+  color:#36cf36
+}
+/* End subscribe section */
+
+
+/* Start Footer */
+#colorlib-footer{
+  background:#5c3ca8;
+}
+
+#colorlib-footer .section-1 p,
+#colorlib-footer .section-2 span,
+#colorlib-footer .section-3 span{
+  font-size: 18px;
+}
+
+
+#colorlib-footer .section-1 ul,
+#colorlib-footer .section-2 ul,
+#colorlib-footer .section-3 ul{
+  margin-top: 30px;
+}
+
+#colorlib-footer .section-1 p,
+#colorlib-footer .section-2 span,
+#colorlib-footer .section-2 ul li a,
+#colorlib-footer .section-3 span,
+#colorlib-footer .section-3 ul li a,
+#colorlib-footer .copyright .block{
+  color: white
+}
+
+#colorlib-footer .copyright {
+  background:#330450;
+}
+
+#colorlib-footer .copyright .copyright-text{
+  margin-top: 20px;
+}
+
+/*End Footer*/
+
+
+/*Media query*/
+@media (max-width: 480px) {
+
+}
+
+
+@media (max-width: 768px) {
+    #colorlib-advantages .diningbar-flex{
+       padding: 3em
+    }
+
+    .diningbar-flex .tab-content .tab-pane,
+    #colorlib-footer .section-1,
+    #colorlib-footer .section-2,
+    #colorlib-footer .section-3{
+      text-align: center
+    } 
+
+    #colorlib-footer .section-1 ul,
+    #colorlib-footer .section-2 ul,
+    #colorlib-footer .section-3 ul{
+      margin-top: 10px;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+
+}
